@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    word-wrap: break-word;
+}
+.ul1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none; 
+}
+.navbar1{
+    background-color:rgb(9, 121, 98);
+    height: 1vh;
+    padding: 2rem;
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+}
+
+.my-pic{
+    width: 200px;
+    position: absolute;
+
+}
+
+.item1{
+    padding: 15px;
+    color: #fff;
+    font-size: 1.3rem;
+}
+.item1:hover{
+    color: rgba(107, 207, 199, 0.945);
+}
+.main-1{
+    background-image:linear-gradient(rgb(9, 121, 98),rgb(99, 179, 163));
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100vw;
+    height: 101vh;
+}
+
+.text{
+    /* padding: 4rem; */
+    display: flex;
+    flex-direction: column;
+}
+.head{
+    padding: 5px;
+    color: #fff;
+}
+#head-2{
+    font-size: 5rem;
+    font-weight: 600;
+}
+.img-1{
+    height: 500px;
+    width: 400px;
+    /* padding: 4rem; */
+    /* border-radius: 50%; */
+}
+.btn1{
+    width: 150px;
+    font-size: small;
+    font-weight: bold;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    background: rgb(85, 173, 156);
+    margin-top: 10px;
+}
+.btn:hover{
+    background:#fff;
+    color:rgb(9, 121, 98);
+    border: 2px solid #fff;
+}
+
+/* Education section  */
+
+
+.educationsec, .skillsec, .aboutsec{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+.headings{
+    border-bottom: 3px solid #4e9785;
+    color: #4e9785;
+    padding-top: 2rem;
+    font-weight: 600;
+    font-size: 2rem;
+    font-family: 'Lora', serif;
+}
+.main-2{
+    /* border: 2px solid black; */
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.img-2, .img-3{
+    width: 35vw;
+    height: 75vh;
+    /* padding-: 3rem; */
+}
+
+.text-2{
+    width: 60vw;
+    /* border: 2px solid black;    */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    /* border: 2px solid black; */
+    border-radius: 30px;
+    flex-wrap: wrap;
+}
+.cards:hover{
+    background-color: #4e9785;
+    color: #fff;
+}
+
+.fas1{
+    font-size: 5rem;
+    padding-bottom: 10px;
+    /* color: blue; */
+}
+.content{
+    text-align: center;
+}
+
+/* skill section  */
+
+
+.main-3{
+    /* border: 2px solid black; */
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-3{
+    /* border: 2px solid black; */
+    width: 60vw;
+}
+.prg{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+}
+.progress{
+    /* border: 2px solid black; */
+    width: 50vw;
+}
+.bg1{
+    background-color: #4e9785;
+    font-weight: bold;
+}
+.fab1{
+    font-size: 3rem;
+    color: tomato;
+}
+.fab2{
+    font-size: 3rem;
+    color: rgb(71, 145, 255);
+}
+.fab3{
+    font-size: 3rem;
+    color: rgb(105, 32, 105);
+}
+.fab4{
+    font-size: 3rem;
+    color: rgb(230, 212, 52);
+}
+.contactsec{
+    /* border: 2px solid black; */
+    width: 100vw;
+    height: 30vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: rgba(78, 151, 133, 1)
+}
+.faslast{
+    padding: 2rem;
+    color: #fff;
+    font-size: 1.2rem;
+}
+.fablast{
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+.fablast:hover{
+    color: rgba(107, 207, 199, 0.945);
+    font-size: 1.8rem;
+}
+.lasttag{
+    color: #fff;
+    font-size: 1.2rem;
+}
